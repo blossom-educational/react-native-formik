@@ -13,7 +13,7 @@ export interface withInputTypePropsProps {
 }
 
 export interface withErrorProps {
-  error: string;
+  error?: string;
 }
 
 export interface withTouchedProps {
