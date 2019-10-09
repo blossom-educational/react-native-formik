@@ -9,7 +9,7 @@ export interface setFormikInitialValueProps {
 }
 
 export interface withInputTypePropsProps {
-  type: string;
+  type?: 'email' | 'password' | 'digits' | 'name';
 }
 
 export interface withErrorProps {
